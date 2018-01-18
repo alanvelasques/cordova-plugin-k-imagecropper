@@ -130,7 +130,7 @@ public class KImageCropper extends CordovaPlugin {
 
         cordova.setActivityResultCallback(this);
         CropImage.activity(Uri.parse(IMAGE_URL))
-                .setAspectRatio(ASPECT_RATIO_X,ASPECT_RATIO_Y)
+                //.setAspectRatio(ASPECT_RATIO_X,ASPECT_RATIO_Y)
                 .setAutoZoomEnabled(IS_ZOOMABLE)
                 .setActivityTitle(ACTIVITY_TITLE)
                 .setGuidelines(CropImageView.Guidelines.ON)
