@@ -41,7 +41,7 @@
     cropController.toolbarHidden = YES;
     cropController.rotationEnabled = NO;
     cropController.cropAspectRatio = ratioX / ratioY;
-    cropController.keepingCropAspectRatio = YES;
+    cropController.keepingCropAspectRatio = NO;
 
     self.callbackId = command.callbackId;
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:cropController];
